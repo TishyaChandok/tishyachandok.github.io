@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+}
+
+.home {
+    height: 70vh;
+    background: repeating-linear-gradient(-45deg, #0063ff 0%, #0040a5 15%, #367be8 25%, #0040a5 35%, #0063ff 50%);
+    animation: slide 10s infinite linear forwards;
+    background-size: 200vw 200vw;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.home h1,
+.home h3 {
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.home h3 {
+    font-size: 40px;
+}
+
+.section {
+    padding: 50px 150px;
+}
+
+hr {
+    color: #aaa;
+    width: 80%;
+    margin: 15px 0px;
+}
+
+.section h1 {
+    padding: 10px;
+    background: linear-gradient(to right, #528ce8, #0054d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue {
+    background: linear-gradient(to right, #528ce8, #0054d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.section li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.gallery {
+    padding: 50px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 25%;
+    margin: 10px;
+}
+
+@keyframes slide {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 200vw;
+    }
+}
