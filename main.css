@@ -47,6 +47,9 @@ hr {
     -webkit-text-fill-color: transparent;
 }
 
+.section h1 span {
+    -webkit-text-fill-color: #fff;
+
 .blue {
     background: linear-gradient(to right, #528ce8, #0054d9);
     -webkit-background-clip: text;
